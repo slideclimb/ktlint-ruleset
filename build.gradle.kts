@@ -18,6 +18,9 @@ dependencies {
     implementation(kotlin("test"))
     implementation(kotlin("test-junit"))
 
+    implementation("com.pinterest.ktlint:ktlint-core:0.36.0")
+    implementation("com.pinterest.ktlint:ktlint-test:0.36.0")
+
     // JUnit 5
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.2")
