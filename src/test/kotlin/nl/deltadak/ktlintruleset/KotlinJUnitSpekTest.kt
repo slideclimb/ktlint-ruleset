@@ -1,9 +1,8 @@
-package nl.deltadak.ktemplate
+package nl.deltadak.ktlintruleset
 
 import org.spekframework.spek2.style.gherkin.Feature
 import org.spekframework.spek2.Spek
 import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.Assertions.fail
 
 object KotlinJUnitSpekTest: Spek({
     Feature("Empty feature") {

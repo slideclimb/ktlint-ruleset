@@ -1,4 +1,4 @@
-package nl.deltadak.ktemplate
+package nl.deltadak.ktlintruleset
 
 /**
  * Default Hello class.

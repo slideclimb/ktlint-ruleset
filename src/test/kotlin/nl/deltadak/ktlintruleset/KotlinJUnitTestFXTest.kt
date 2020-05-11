@@ -1,8 +1,7 @@
-package nl.deltadak.ktemplate
+package nl.deltadak.ktlintruleset
 
 
 import javafx.scene.control.ProgressIndicator
-import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Test
 import org.testfx.api.FxRobot
 import org.testfx.api.FxToolkit

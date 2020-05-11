@@ -1,6 +1,6 @@
 @file:Suppress("MemberVisibilityCanBePrivate")
 
-package nl.deltadak.ktemplate
+package nl.deltadak.ktlintruleset
 
 import io.kotlintest.matchers.doubles.plusOrMinus
 import io.kotlintest.shouldBe

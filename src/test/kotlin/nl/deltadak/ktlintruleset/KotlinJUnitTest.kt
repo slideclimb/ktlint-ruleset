@@ -1,4 +1,4 @@
-package nl.deltadak.ktemplate
+package nl.deltadak.ktlintruleset
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
