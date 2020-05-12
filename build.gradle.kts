@@ -27,6 +27,8 @@ dependencies {
     testImplementation("io.kotest:kotest-runner-junit5-jvm:$kotestVersion")
     testImplementation("io.kotest:kotest-assertions-core-jvm:$kotestVersion") // for kotest core jvm assertions
     testImplementation("io.kotest:kotest-property-jvm:$kotestVersion") // for kotest property test
+
+    ktlintRuleset(files("lib/ktlint-ruleset-0.1.jar"))
 }
 
 repositories {

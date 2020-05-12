@@ -39,8 +39,6 @@ class NewlineBeforeElse : Rule("newline-before-else") {
                     (prevLeaf as LeafElement).rawReplaceWithText("}\n")
                 }
             }
-
         }
     }
-
 }

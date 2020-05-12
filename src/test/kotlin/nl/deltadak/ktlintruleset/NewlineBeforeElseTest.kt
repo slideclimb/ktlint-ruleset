@@ -7,7 +7,6 @@ import io.kotest.inspectors.forExactly
 import io.kotest.matchers.collections.shouldBeEmpty
 import io.kotest.matchers.shouldBe
 
-
 class NewlineBeforeElseTest : StringSpec() {
     init {
         "no newline before else" {
@@ -58,6 +57,7 @@ class NewlineBeforeElseTest : StringSpec() {
                     "nothing"
                 }
             """.trimIndent())
+            lintErrors.shouldBeEmpty()
         }
 
         "expected no newline before else" {
