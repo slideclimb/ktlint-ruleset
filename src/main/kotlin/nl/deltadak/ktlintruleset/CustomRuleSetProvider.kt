@@ -7,7 +7,7 @@ import com.pinterest.ktlint.core.ast.ElementType.ELSE_KEYWORD
 import com.pinterest.ktlint.core.ast.ElementType.FINALLY_KEYWORD
 
 class CustomRuleSetProvider : RuleSetProvider {
-    override fun get() = RuleSet("texify-ruleset",
+    override fun get() = RuleSet("abby-ruleset",
             NewlineBeforeKeyword("else", ELSE_KEYWORD),
             NewlineBeforeKeyword("catch", CATCH_KEYWORD),
             NewlineBeforeKeyword("finally", FINALLY_KEYWORD)
