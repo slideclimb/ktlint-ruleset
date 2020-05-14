@@ -2,7 +2,6 @@ package nl.deltadak.ktlintruleset
 
 import com.pinterest.ktlint.core.LintError
 import com.pinterest.ktlint.core.ast.ElementType.ELSE_KEYWORD
-import com.pinterest.ktlint.core.ast.ElementType.FINALLY_KEYWORD
 import com.pinterest.ktlint.test.format
 import com.pinterest.ktlint.test.lint
 import io.kotest.core.spec.style.StringSpec
