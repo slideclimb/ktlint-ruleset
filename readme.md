@@ -2,3 +2,4 @@
 
 ## Rules
 - `else`, `finally`, and `catch` on new line
+- Space required after keywords like `if` and space forbidden after `get` and `set`
