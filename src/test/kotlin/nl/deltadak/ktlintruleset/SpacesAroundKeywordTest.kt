@@ -9,6 +9,7 @@ import io.kotest.matchers.collections.shouldBeEmpty
 import io.kotest.matchers.shouldBe
 
 class SpacesAroundKeywordTest : StringSpec() {
+
     init {
         "space after if" {
             val lintErrors = SpacesAroundKeywordRule().lint("""

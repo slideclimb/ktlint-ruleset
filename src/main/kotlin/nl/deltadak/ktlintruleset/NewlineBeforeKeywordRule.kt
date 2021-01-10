@@ -14,6 +14,7 @@ import org.jetbrains.kotlin.com.intellij.psi.impl.source.tree.LeafElement
  * Rule that states that some keywords should be on a new line.
  */
 open class NewlineBeforeKeywordRule : Rule("newline-before-keyword") {
+
     private val tokenSet = setOf(ELSE_KEYWORD, CATCH_KEYWORD, FINALLY_KEYWORD)
 
     override fun visit(node: ASTNode, autoCorrect: Boolean, emit: (offset: Int, errorMessage: String, canBeAutoCorrected: Boolean) -> Unit) {

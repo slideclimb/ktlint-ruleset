@@ -4,8 +4,11 @@ import com.pinterest.ktlint.core.RuleSet
 import com.pinterest.ktlint.core.RuleSetProvider
 
 class CustomRuleSetProvider : RuleSetProvider {
-    override fun get() = RuleSet("abby-ruleset",
-            NewlineBeforeKeywordRule(),
-            SpacesAroundKeywordRule()
+
+    override fun get() = RuleSet(
+        "texify",
+        NewlineAfterClassHeader(),
+        NewlineBeforeKeywordRule(),
+        SpacesAroundKeywordRule()
     )
 }

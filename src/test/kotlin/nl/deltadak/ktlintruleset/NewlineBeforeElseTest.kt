@@ -9,6 +9,7 @@ import io.kotest.matchers.collections.shouldBeEmpty
 import io.kotest.matchers.shouldBe
 
 class NewlineBeforeElseTest : StringSpec() {
+
     init {
         "no newline before else" {
             val lintErrors = NewlineBeforeKeywordRule().lint("""

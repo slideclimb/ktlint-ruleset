@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 group = "nl.deltadak"
-version = "0.1"
+version = "0.2"
 
 plugins {
 
@@ -16,6 +16,7 @@ plugins {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("stdlib"))
     // To "prevent strange errors".
     implementation(kotlin("reflect"))
     // Kotlin reflection.
@@ -31,7 +32,7 @@ dependencies {
     testImplementation("io.kotest:kotest-assertions-core-jvm:$kotestVersion") // for kotest core jvm assertions
     testImplementation("io.kotest:kotest-property-jvm:$kotestVersion") // for kotest property test
 
-    ktlintRuleset(files("lib/ktlint-ruleset-0.1.jar"))
+    ktlintRuleset(files("lib/ktlint-ruleset-0.2.jar"))
 }
 
 repositories {

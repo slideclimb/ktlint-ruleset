@@ -26,6 +26,7 @@ import org.jetbrains.kotlin.psi.KtPropertyAccessor
  * Taken from the original [SpacingAroundKeywordRule] from ktlint.
  */
 class SpacesAroundKeywordRule : Rule("keyword-spaces") {
+
     private val tokenSet = setOf(
             FOR_KEYWORD, IF_KEYWORD, ELSE_KEYWORD, WHILE_KEYWORD, DO_KEYWORD,
             TRY_KEYWORD, CATCH_KEYWORD, FINALLY_KEYWORD, WHEN_KEYWORD
